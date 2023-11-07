@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Deferrences</title>
+    <link rel="stylesheet" href="css/Find_defferrences_on_string.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+    <div class="container">
+        <div class="input-field">
+            <h1>Find the differences in Your text.</h1>
+            <p>Your primary text:</p>
+            <textarea id="input1"></textarea>
+            <p>Your Secondary text: </p>
+            <textarea id="input2"></textarea>
+        </div>
+        <div class="button-box">
+            <button class="find-btn" onclick="find()">Find</button>
+            <button class="clear-btn" onclick="clear()">Clear</button>
+        </div>
+        <p id="result-label">Result:</p>
+        <p id="result"><span></span></p>
+    </div>
+    
+</body>
+</html>
+<script src="Find_defferrences_on_string.js"></script>

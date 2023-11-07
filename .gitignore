@@ -1,0 +1,4 @@
+gulpfile.js
+*.scss
+*.json
+/node_modules
